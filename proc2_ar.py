@@ -17,7 +17,7 @@ st.set_page_config(page_title="Clasificación de Atletas", page_icon=':runner:',
 # Cargar datos
 @st.cache_data
 def load_data():
-    file_path = "D:/Usuarios/jcirujanom01/Desktop/2ºEval/atletas_250_redondeado.csv"
+    file_path = "atletas_250_redondeado.csv"
     data = pd.read_csv(file_path)
     return data
 
